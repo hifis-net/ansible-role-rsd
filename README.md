@@ -54,6 +54,9 @@ Currently [supported platforms](meta/main.yml) are:
 - `rsd_prune_volumes`
   - Default: `false`
   - Description: Set to `true` to remove docker data volumes (**this will force container recreation**).
+- `rsd_migrate_data`
+  - Default: `false`
+  - Description: Set to `true` to migrate data from the existing RSD to the new RSD-as-a-service.
 
 ### RSD Env Variables
 - `rsd_domain`
