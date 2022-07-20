@@ -163,6 +163,15 @@ services:
       - net
 
 {% endif %}
+{% if rsd_migrate_data | default(false) | bool %}
+  data-migration:
+    container_name: data-migration
+    image: rsd/data-migration:1.0.0
+    environment:
+      - PGRST_JWT_SECRET
+    network_mode: "host"
+
+{% endif %}
 # define name for docker network
 # it should have name: rsd-as-a-service_net
 networks:

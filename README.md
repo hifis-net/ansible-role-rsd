@@ -62,6 +62,9 @@ Currently [supported platforms](meta/main.yml) are:
 - `rsd_spotlight_migration_image`
   - Default: `"ghcr.io/hifis-net/rsd-spotlight-migration:v1.0.0"`
   - Description: Container image for software spotlights migration
+- `rsd_migrate_data`
+  - Default: `false`
+  - Description: Set to `true` to migrate data from the existing RSD to the new RSD-as-a-service.
 
 ### RSD Env Variables
 - `rsd_domain`
