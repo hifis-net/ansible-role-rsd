@@ -65,7 +65,7 @@ jobs:
         uses: "./.github/workflows/prepare-action"
 
       - name: "Run Molecule tests."
-        run: "poetry run molecule test"
+        run: "poetry run molecule --debug test"
         env:
           MOLECULE_DISTRO: "${{ matrix.distro }}"
 

@@ -7,8 +7,8 @@
 - name: "Prepare"
   hosts: "all"
   vars:
-    docker_daemon_options:
-      storage-driver: "vfs"
+#    docker_daemon_options:
+#      storage-driver: "overlay2"
     pip_install_packages:
       - name: "docker"
       - name: "docker-compose"
