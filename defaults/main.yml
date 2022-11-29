@@ -60,6 +60,7 @@ rsd_postgres_db_host: "database"
 rsd_postgres_db_host_port: "5432"
 rsd_postgres_db: "rsd-db"
 rsd_postgres_user: "rsd"
+rsd_oaipmh_scraper_enabled: false
 rsd_postgres_password: "changeme"
 # For backwards compatibility, the rsd_postgres_password was reused as default value
 # It is strongly recommended to use different password here
