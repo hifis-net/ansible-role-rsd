@@ -102,7 +102,21 @@ server {
         proxy_pass http://backend/;
     }
 
-{% if rsd_swagger_enabled | default(false) | bool %}
+{% if rsd_oaipmh_scraper_enabled | bool %}
+    location /oaipmh {
+        if ($arg_verb != "ListRecords") {
+            return 404;
+        }
+        if ($arg_metadataPrefix != "datacite4") {
+            return 404;
+        }
+        set $args "";
+        proxy_set_header Accept text/xml;
+        proxy_pass http://backend/oaipmh?select=data;
+    }
+{% endif %}
+
+{% if rsd_swagger_enabled | bool %}
     # Provide user interface for API access
     location /swagger/ {
         proxy_pass http://swagger:8080/;

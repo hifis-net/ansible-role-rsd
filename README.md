@@ -134,6 +134,9 @@ Currently [supported platforms](meta/main.yml) are:
 - `rsd_max_requests_doi`
   - Default: `"6"`
   - Description: Maximum number of mentions to scrape per run.
+- `rsd_oaipmh_scraper_enabled`
+  - Default: `false`
+  - Description: Set to `true` to enable the oaipmh scraper.
 - `rsd_surfconext_client_secret`
   - Default: `"changeme"`
   - Description: SurfConext client secret.
