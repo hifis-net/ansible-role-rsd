@@ -1,5 +1,35 @@
 # Changelog
 
+## [Unreleased](https://github.com/hifis-net/ansible-role-rsd/tree/HEAD)
+
+[Full Changelog](https://github.com/hifis-net/ansible-role-rsd/compare/v1.4.0...HEAD)
+
+**Closed issues:**
+
+- Add env vars to specify DB host and port [\#129](https://github.com/hifis-net/ansible-role-rsd/issues/129)
+- `NEXT_PUBLIC_` removed from environment variable names [\#122](https://github.com/hifis-net/ansible-role-rsd/issues/122)
+- Remove `HOTJAR_ID` [\#121](https://github.com/hifis-net/ansible-role-rsd/issues/121)
+- `AUTH_*_TOKEN_URL` removed [\#120](https://github.com/hifis-net/ansible-role-rsd/issues/120)
+- Support swagger service [\#118](https://github.com/hifis-net/ansible-role-rsd/issues/118)
+- Add new environment variable ENABLE\_OAIPMH\_SCRAPER [\#103](https://github.com/hifis-net/ansible-role-rsd/issues/103)
+- Support custom themes via mounts [\#99](https://github.com/hifis-net/ansible-role-rsd/issues/99)
+
+**Merged pull requests:**
+
+- Bump yamllint from 1.28.0 to 1.29.0 [\#137](https://github.com/hifis-net/ansible-role-rsd/pull/137) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump molecule from 4.0.3 to 4.0.4 [\#135](https://github.com/hifis-net/ansible-role-rsd/pull/135) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump reuse from 1.0.0 to 1.1.0 [\#133](https://github.com/hifis-net/ansible-role-rsd/pull/133) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Add env var to enable oaipmh scraper [\#132](https://github.com/hifis-net/ansible-role-rsd/pull/132) ([Normo](https://github.com/Normo))
+- Bump ansible-lint from 6.5.0 to 6.8.7 [\#131](https://github.com/hifis-net/ansible-role-rsd/pull/131) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Add environment variables to change database connection [\#130](https://github.com/hifis-net/ansible-role-rsd/pull/130) ([Normo](https://github.com/Normo))
+- Add codeowners to autoassign reviewers [\#128](https://github.com/hifis-net/ansible-role-rsd/pull/128) ([Normo](https://github.com/Normo))
+- Bump all Ansible requirements and make required changes [\#127](https://github.com/hifis-net/ansible-role-rsd/pull/127) ([Normo](https://github.com/Normo))
+- Bump ansible from 6.2.0 to 7.0.0 [\#126](https://github.com/hifis-net/ansible-role-rsd/pull/126) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Use molecule-podman instead of molecule-docker [\#125](https://github.com/hifis-net/ansible-role-rsd/pull/125) ([Normo](https://github.com/Normo))
+- Adds support for Swagger UI [\#124](https://github.com/hifis-net/ansible-role-rsd/pull/124) ([cmeessen](https://github.com/cmeessen))
+- 122 rename env vars [\#123](https://github.com/hifis-net/ansible-role-rsd/pull/123) ([cmeessen](https://github.com/cmeessen))
+- Bump yamllint from 1.27.1 to 1.28.0 [\#97](https://github.com/hifis-net/ansible-role-rsd/pull/97) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v1.4.0](https://github.com/hifis-net/ansible-role-rsd/tree/v1.4.0) (2022-08-23)
 
 [Full Changelog](https://github.com/hifis-net/ansible-role-rsd/compare/v1.3.2...v1.4.0)
@@ -18,12 +48,12 @@
 
 **Merged pull requests:**
 
-- Prepare release v1.4.0 [\#93](https://github.com/hifis-net/ansible-role-rsd/pull/93) ([Normo](https://github.com/Normo))
 - Bump ansible-lint from 6.4.0 to 6.5.0 [\#92](https://github.com/hifis-net/ansible-role-rsd/pull/92) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Fix: Docker Compose validation on systems with Docker Compose CLI plugin [\#90](https://github.com/hifis-net/ansible-role-rsd/pull/90) ([Normo](https://github.com/Normo))
 - Add badges to README.md [\#88](https://github.com/hifis-net/ansible-role-rsd/pull/88) ([Normo](https://github.com/Normo))
-- Enable compose project names [\#87](https://github.com/hifis-net/ansible-role-rsd/pull/87) ([Normo](https://github.com/Normo))
 - Bump ansible from 6.1.0 to 6.2.0 [\#84](https://github.com/hifis-net/ansible-role-rsd/pull/84) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Prepare release v1.4.0 [\#93](https://github.com/hifis-net/ansible-role-rsd/pull/93) ([Normo](https://github.com/Normo))
+- Fix: Docker Compose validation on systems with Docker Compose CLI plugin [\#90](https://github.com/hifis-net/ansible-role-rsd/pull/90) ([Normo](https://github.com/Normo))
+- Enable compose project names [\#87](https://github.com/hifis-net/ansible-role-rsd/pull/87) ([Normo](https://github.com/Normo))
 
 ## [v1.3.2](https://github.com/hifis-net/ansible-role-rsd/tree/v1.3.2) (2022-08-03)
 
