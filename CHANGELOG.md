@@ -4,14 +4,17 @@
 
 [Full Changelog](https://github.com/hifis-net/ansible-role-rsd/compare/v1.4.0...HEAD)
 
-**Closed issues:**
+**Implemented enhancements:**
 
 - Add env vars to specify DB host and port [\#129](https://github.com/hifis-net/ansible-role-rsd/issues/129)
 - `NEXT_PUBLIC_` removed from environment variable names [\#122](https://github.com/hifis-net/ansible-role-rsd/issues/122)
-- Remove `HOTJAR_ID` [\#121](https://github.com/hifis-net/ansible-role-rsd/issues/121)
-- `AUTH_*_TOKEN_URL` removed [\#120](https://github.com/hifis-net/ansible-role-rsd/issues/120)
 - Support swagger service [\#118](https://github.com/hifis-net/ansible-role-rsd/issues/118)
 - Add new environment variable ENABLE\_OAIPMH\_SCRAPER [\#103](https://github.com/hifis-net/ansible-role-rsd/issues/103)
+
+**Closed issues:**
+
+- Remove `HOTJAR_ID` [\#121](https://github.com/hifis-net/ansible-role-rsd/issues/121)
+- `AUTH_*_TOKEN_URL` removed [\#120](https://github.com/hifis-net/ansible-role-rsd/issues/120)
 - Support custom themes via mounts [\#99](https://github.com/hifis-net/ansible-role-rsd/issues/99)
 
 **Merged pull requests:**
