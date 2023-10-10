@@ -19,9 +19,6 @@ platforms:
     privileged: true  # Required to run Docker in Podman
     systemd: true
     tty: true
-lint: |
-  yamllint --strict --format colored . &&
-  ansible-lint -v --force-color --offline .
 provisioner:
   name: "ansible"
   config_options:
@@ -44,7 +41,6 @@ verifier:
 scenario:
   test_sequence:
     - "dependency"
-    - "lint"
     - "cleanup"
     - "destroy"
     - "syntax"
